@@ -1,0 +1,129 @@
+<html lang="en" dir="ltr">
+
+<head>
+  <title> Project 3 </title>
+  <meta charset="utf-8">
+  <!-- Using External CSS !-->
+  <link rel="stylesheet" type="text/css" href="css/master.css">
+
+  <!--Fonts!-->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+</head>
+
+<body>
+
+  <h3>
+    <p class="Line anim-typewriter">
+      Super Sonic Messenger</p>
+  </h3>
+
+  <main>
+    <section id="sidebar">
+      <ul id="nav-container"> </ul>
+    </section>
+
+    <section id="post-container">
+      <section id="intro">
+        <h2>3 Useful Atom Tools</h2>
+
+        <p>Wanna Look At Some Cool Atom Tools? Click On One Of The Tool Names</p>
+
+        <blockquote>Atom Is A Good Application For Creating Websites Here Are Some Cool Tools</blockquote>
+
+        <span class="author"> A.A. Milne </span>
+      </section>
+    </section>
+  </main>
+  
+  <img id="askstack" src="Images\ask-stack.PNG" style="display:none;" />
+  <img id="beautify" src="Images\atom-beautify.PNG" style="display:none;" />
+  <img id="preview" src="Images\Preview_Html.PNG" style="display:none;" />
+
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+  <br> </br>
+
+  <body background="Images\michal-kvac-background-03.jpg" width="450" height="360">
+
+    <form id="message-container">
+      Type Your Message Here: <input name="name" type="text" onfocus="this.value = ''" size="20">
+    </form>
+
+    <button id="send-button" onclick="init(this.id)"> Send </button>
+
+    <button id="reply-button" onclick="init(this.id)"> Reply </button>
+
+    <h2> Messages </h2>
+    <h1> 20 Minutes Ago <h1>
+        <p id="UserMessages"> </p>
+
+        <p id="displayMessage"> </p>
+        <br> </br>
+
+        <form id="form1">
+          Do you like Atom? (yes/no): <input name="name" type="text" size="20">
+        </form>
+        <button id="secret-message" onclick="outputname()"> Submit </button>
+        <p id="displayName"> </p>
+
+        <button id="CoolGif" onclick="picture()">Cool Gifs?</button>
+        <img id="coolgif" src="Images\giphy.gif" style="display:none;" />
+        <img id="coolgif2" src="Images\SonicRun.gif" style="display:none;" />
+        <img id="coolgif3" src="Images\002d7e638fb463fb7a266f5ffc7ac47d.gif" style="display:none;" />
+
+        <h2> Links To My Other Projects </h2>
+
+        <section id="links">
+          <ul>
+            <li>
+              <a href="https://github.com/cannizga" target="_blank">To My Main GitHub Page</a> <br> </br>
+            </li>
+
+            <li>
+              <a href="https://github.com/cannizga/giuseppe-cannizzzo-p2/tree/master/Project2" target="_blank">To Project 2</a> <br> </br>
+            </li>
+
+            <li>
+              <a href="https://github.com/cannizga/giuseppe-cannizzo-p1/tree/master/Project1" target="_blank">To Project 1</a> <br> </br>
+            </li>
+
+            <li>
+              <a href="https://github.com/cannizga/giuseppe-cannizzo-itdev160/tree/master/activity-6" target="_blank">To Activity 6</a> <br> </br>
+            </li>
+
+            <li>
+              <a href="https://github.com/cannizga/giuseppe-cannizzo-itdev160/tree/master/activity-5" target="_blank">To Activity 5</a> <br> </br>
+            </li>
+
+            <li>
+              <a href="https://github.com/cannizga/giuseppe-cannizzo-itdev160/tree/master/activity-4" target="_blank">To Activity 4</a> <br> </br>
+            </li>
+
+            <li>
+              <a href="https://github.com/cannizga/giuseppe-cannizzo-itdev160/tree/master/activity-3" target="_blank">To Activity 3</a> <br> </br>
+            </li>
+
+            <li>
+              <a href="https://github.com/cannizga/giuseppe-cannizzo-itdev160/tree/master/activity-2" target="_blank">To Activity 2</a> <br> </br>
+            </li>
+
+            <li>
+              <a href="mailto:giuseppeacannizzojr@gmail.com"> Send Me A Message? </a>
+            </li>
+          </ul>
+        </section>
+        <br> </br>
+
+        <footer id="page-footer"> Page Made By Giuseppe Cannizzo </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+        <script src="js/scripts.js" charset="utf-8"> </script>
+
+  </body>
+
+</html>

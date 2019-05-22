@@ -1,6 +1,6 @@
 var messages = [];
 
-var prevMessages = ["Hey Man Whats Up", "Hello?", "Are You Ignoring Me?"];
+var prevMessages = ["Hows It Going", "Anyone There?", "Hey! Are You Ignoring Me!"];
 
 function savedMessages() {
   for (i = 0; i < 3; i++) {
